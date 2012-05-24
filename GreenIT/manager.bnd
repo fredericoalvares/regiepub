@@ -1,0 +1,3 @@
+Private-Package: org.greenIT.manager.impl,\
+	org.greenIT.manager.interfaces
+Bundle-Version: 1.0.0

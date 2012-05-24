@@ -1,0 +1,15 @@
+-runfw: org.apache.felix.framework;version='[4,5)'
+
+
+-runrequire: bundle:(symbolicname=org.apache.felix.shell),\
+	bundle:(symbolicname=org.apache.felix.shell.tui),\
+	bundle:(symbolicname=GreenIT.controller),\
+	bundle:(symbolicname=GreenIT.pubText),\
+	bundle:(symbolicname=GreenIT.manager),\
+	bundle:(symbolicname=GreenIT.factory)
+-runbundles: org.apache.felix.shell;resolution=file:/D:/Projets/GreenIT/cnf/repo/org.apache.felix.shell/org.apache.felix.shell-1.4.2.jar;version='[1.4.2,1.4.3)',\
+	org.apache.felix.shell.tui;resolution=file:/D:/Projets/GreenIT/cnf/repo/org.apache.felix.shell.tui/org.apache.felix.shell.tui-1.4.1.jar;version='[1.4.1,1.4.2)',\
+	GreenIT.factory;resolution=file:/D:/Projets/GreenIT/GreenIT/generated/GreenIT.factory.jar;version=latest,\
+	GreenIT.controller;resolution=file:/D:/Projets/GreenIT/GreenIT/generated/GreenIT.controller.jar;version=latest,\
+	GreenIT.pubText;resolution=file:/D:/Projets/GreenIT/GreenIT/generated/GreenIT.pubText.jar;version=latest,\
+	GreenIT.manager;resolution=file:/D:/Projets/GreenIT/GreenIT/generated/GreenIT.manager.jar;version=latest

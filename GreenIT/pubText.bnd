@@ -1,0 +1,3 @@
+Private-Package: org.greenIT.pubText.impl,\
+	org.greenIT.pubText.interfaces
+Bundle-Version: 1.0.0
